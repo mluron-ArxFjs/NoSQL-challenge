@@ -23,6 +23,7 @@ Run the following command on your CLI to run the application:
 Please view a Walkthrough Video here:
 
 ![Screenshot](./assets/screen%20shot.png)
+![Screenshot](./assets/Screen%20Shot2.png)
 ## Packages
 
 * Express.js https://www.npmjs.com/package/express
