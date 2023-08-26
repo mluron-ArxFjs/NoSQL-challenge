@@ -63,7 +63,7 @@ module.exports = {
         }
         User.findOneAndUpdate(
           { username: deletedThought.username },
-          { $pull: { thoughts: params.thoughtId } },
+          { $pull: { thoughts: req.params.thoughtId } },
           { new: true }
         ).then((dbUserData) => {
           if (!dbUserData) {
